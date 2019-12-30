@@ -17,3 +17,5 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: GitHub Action for Serverless Framework
+      uses: aaronpanch/action-serverless@v1.0.0
